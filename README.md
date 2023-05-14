@@ -45,7 +45,7 @@ The scrapped data contained the following information. All this information is a
 
 ## Notebooks
 
-This repository contains two notebooks. The first one contains all the data cleaning, preprocessing and feature generation. The second one contains the statistical learning and evaluation of the different models.
+This repository contains two notebooks. The [first one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/data_preprocessing_github.ipynb) contains all the data cleaning, preprocessing and feature generation. The [second one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/machine_learning_github.ipynb) contains the statistical learning and evaluation of the different models.
 
 ## Evaluation
 
