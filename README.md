@@ -7,7 +7,7 @@ I chose to use tree-based models for this competition due to my experience with 
 
 I ended this competition in 6th place. Time constraints limited the extent to which I wanted to push this model. This repository contains minor improvements to the model made after the competition which could have resulted in a better placement.
 
-I hope this repository can serve as inspiration and guidance for the first steps of anyone predicting Tweet virality via machine learning. It is important to keep in mind the limits of this model (data only contains tweets related to Web3 content, relatively small data set, evaluation metrics in the context of competition, etc.) I am open to any suggestion / improvement to my approach. I am available via mail or LinkedIn.
+I hope this repository can serve as inspiration and guidance for the first steps of anyone predicting Tweet virality via machine learning. It is important to keep in mind the limits of this model (data only contains tweets related to Web3 content, relatively small data set, evaluation metrics in the context of competition, etc.) I am open to any suggestion / improvement to my approach.
 
 ## Data
 
