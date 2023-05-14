@@ -11,7 +11,7 @@ I hope this repository can serve as inspiration and guidance for the first steps
 
 ## Data
 
-The datasets contain (mostly) recent tweets from high profile Twitter accounts in the fields of blockchain, cryptocurrency, and Web3. There are several columns to help you predict the engagement from a tweet. Engagement is defined as the number of retweets and likes and is available in the column engagement_count. There was 26,757 rows in the training set, and 8,921 in the submission set.
+The datasets contained (mostly) recent tweets from high profile Twitter accounts in the fields of blockchain, cryptocurrency, and Web3. There were several columns to help predict the engagement from a tweet. Engagement was defined as the number of retweets and likes and was available in the column engagement_count. There was 26,757 rows in the training set, and 8,921 in the submission set.
 
 I have not put the data in this repository, as it is unclear whether competitors are allowed to use the data given outside of the competition.
 
