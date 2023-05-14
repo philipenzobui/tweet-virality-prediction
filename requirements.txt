@@ -1,0 +1,14 @@
+numpy
+pandas
+sklearn
+xgboost
+matplotlib
+seaborn
+wordcloud
+lightgbm
+dateutil
+wordcloud
+string
+re
+vaderSentiment
+collections
