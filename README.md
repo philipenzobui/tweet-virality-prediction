@@ -1,9 +1,13 @@
 # Virality of Tweets using Tree-Based Models
-Applying Tree-Based models to perform virality of Tweets regression as per the 2023 SOA (Society of Actuaries) / CIA (Canadian Institute of Actuaries) / CAS (Casualty Actuarial Society) joint predictive analytics competition. I chose to use tree-based models for this competition due to my experience with them, the ease of implentation (given 48h time contraint), and predictive power for irregular patterns.
+Applying Tree-Based models to perform virality of Tweets regression as per the 2023 SOA (Society of Actuaries) / CIA (Canadian Institute of Actuaries) / CAS (Casualty Actuarial Society) joint predictive analytics competition. 
 
 "For this competition, you will predict the engagement of (mostly) recent tweets from high-profile Twitter accounts based on fields such as blockchain, cryptocurrency, and Web3."
 
+I chose to use tree-based models for this competition due to my experience with them, the ease of implentation (given 48h time contraint), and predictive power for irregular patterns.
+
 I ended this competition in 6th place. Time constraints limited the extent to which I wanted to push this model. This repository contains improvements to the model made after the competition which could have resulted in a better placement.
+
+I hope this repository can serve as inspiration and guidance for the first steps for anyone predicting Tweet virality via machine learning.
 
 ## Data
 
@@ -45,7 +49,7 @@ The scrapped data contained the following information. All this information is a
 
 ## Notebooks
 
-This repository contains two notebooks. The [first one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/data_preprocessing_github.ipynb) contains all the data cleaning, preprocessing and feature generation. The [second one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/machine_learning_github.ipynb) contains the statistical learning and evaluation of the different models.
+This repository contains two notebooks. The [first one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/data_preprocessing_github.ipynb) contains all the data cleaning, preprocessing and feature generation. The [second one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/machine_learning_github.ipynb) contains the statistical learning and evaluation of the different models. I do not extensively present the data exploration, feature generation, and model comparation steps.
 
 ## Evaluation
 
