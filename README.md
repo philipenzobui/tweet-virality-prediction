@@ -1,5 +1,5 @@
 # Virality of Tweets using Tree-Based Models
-Applying Tree-Based models to perform virality of Tweets regression as per the 2023 SOA (Society of Actuaries) / CIA (Canadian Institute of Actuaries) / CAS (Casualty Actuarial Society) joint predictive analytics competition. 
+Applying Tree-Based models to perform virality of tweets regression as per the 2023 SOA (Society of Actuaries) / CIA (Canadian Institute of Actuaries) / CAS (Casualty Actuarial Society) joint predictive analytics competition. 
 
 "For this competition, you will predict the engagement of (mostly) recent tweets from high-profile Twitter accounts based on fields such as blockchain, cryptocurrency, and Web3."
 
@@ -7,7 +7,7 @@ I chose to use tree-based models for this competition due to my experience with 
 
 I ended this competition in 6th place. Time constraints limited the extent to which I wanted to push this model. This repository contains improvements to the model made after the competition which could have resulted in a better placement.
 
-I hope this repository can serve as inspiration and guidance for the first steps for anyone predicting Tweet virality via machine learning.
+I hope this repository can serve as inspiration and guidance for the first steps of anyone predicting Tweet virality via machine learning. It is important to keep in mind the limits of this model (data only contains tweets related to Web3 content, relatively small data set, evaluation metrics in the context of competition, etc.)
 
 ## Data
 
@@ -15,7 +15,7 @@ The datasets contain (mostly) recent tweets from high profile Twitter accounts i
 
 I have not put the data in this repository, as it is unclear whether competitors are allowed to use the data given outside of the competition.
 
-The Tweets data contained the following information:
+The tweets data contained the following information:
 
 - tweet_id - An unique identifier for each tweet
 - screen_name - The screen name of the user who tweeted
@@ -37,7 +37,7 @@ The scrapped data contained the following information. All this information is a
 - username - The screen name of the user who tweeted
 - followers_count - The number of followers accounts of the user who tweeted
 - following_count - The number of following accounts of the user who tweeted
-- tweet_count - The total number of Tweets of the user who tweeted
+- tweet_count - The total number of tweets of the user who tweeted
 - join_date - The date that the user joined Twitter
 - is_verified - TRUE if the user is verified
 - location - The location of the user who tweeted
@@ -45,11 +45,11 @@ The scrapped data contained the following information. All this information is a
 - media_count - The number of media posted by the user who tweeted
 - user_description - The profile description of the user who tweeted
 - lists_count - The number of lists that the user who tweeted is listed on
-- friends_count - The number of friends (user follows this account, and this account follows the user) of the user who tweeted
+- friends_count - The number of friends (user follows this account and this account follows the user) of the user who tweeted
 
 ## Notebooks
 
-This repository contains two notebooks. The [first one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/data_preprocessing_github.ipynb) contains all the data cleaning, preprocessing and feature generation. The [second one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/machine_learning_github.ipynb) contains the statistical learning and evaluation of the different models. I do not extensively present the data exploration, feature generation, and model comparation steps.
+This repository contains two notebooks. The [first one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/data_preprocessing_github.ipynb) contains all the data cleaning, preprocessing, and feature generation. The [second one](https://github.com/philipenzobui/tweet-virality-prediction/blob/main/machine_learning_github.ipynb) contains the statistical learning and evaluation of the different models. I do not extensively present the data exploration, feature generation, and other steps necessary for building a predictive model.
 
 ## Evaluation
 
