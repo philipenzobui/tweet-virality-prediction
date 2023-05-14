@@ -1,5 +1,5 @@
 # Virality of Tweets using Tree-Based Models
-Applying Tree-Based models to perform virality of tweets regression as per the 2023 SOA (Society of Actuaries) / CIA (Canadian Institute of Actuaries) / CAS (Casualty Actuarial Society) joint predictive analytics competition. 
+Applying Tree-Based models to perform virality of tweets regression as per the 2023 SOA (Society of Actuaries) / CIA (Canadian Institute of Actuaries) / CAS (Casualty Actuarial Society) joint predictive analytics expert competition. 
 
 "For this competition, you will predict the engagement of (mostly) recent tweets from high-profile Twitter accounts based on fields such as blockchain, cryptocurrency, and Web3."
 
