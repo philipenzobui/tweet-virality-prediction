@@ -24,7 +24,21 @@ The Tweets data contained the following information:
 - urls - URLs used in the tweet
 - engagement_count - The total number of retweets and likes on the tweet
 
-I also scrapped some user data directly from the Twitter API as allowed by the rules: "You are allowed to find external data that could potentially augment the existing dataset, however finding the actual tweets on the internet and identifying their number of likes / shares would be considered cheating." The scrapped data contained
+I also scrapped some user data directly from the Twitter API as allowed by the rules: "You are allowed to find external data that could potentially augment the existing dataset, however finding the actual tweets on the internet and identifying their number of likes / shares would be considered cheating." The scrapped data contained the following information.
+
+- username - The screen name of the user who tweeted
+- followers_count - The number of followers accounts of the user who tweeted
+- following_count - The number of following accounts of the user who tweeted
+- tweet_count - The total number of Tweets of the user who tweeted
+- join_date - The date that the user joined Twitter
+- is_verified - TRUE if the user is verified
+- location - The location of the user who tweeted
+- likes_count - The number of likes of the user who tweeted
+- media_count - The number of media posted by the user who tweeted
+- user_description - The profile description of the user who tweeted
+- lists_count - The number of lists that the user who tweeted is listed on
+- friends_count - The number of friends (user follows this account, and this account follows the user) of the user who tweeted
+
 
 
 
