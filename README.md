@@ -53,4 +53,4 @@ This repository contains two notebooks. The [first one](https://github.com/phili
 
 ## Evaluation
 
-The evaluation metric for this competition was the root mean squared error (RMSE). The baseline RMSE (average of target from test data) was 1234.97, the final model presented in this repository was 465.65 (62.3% improvement).
+The evaluation metric for this competition was the root mean squared error (RMSE). The baseline RMSE (average of target from test data) was 1234.97, the final model's RMSE was 465.65 (62.3% improvement).
